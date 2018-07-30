@@ -1,0 +1,29 @@
+<!-- <section>
+    <h2>Pay Your Bill</h2>
+    <div class="form-wrapper">
+        <form action="/charge" method="POST">
+            <p>Your outstanding balance is <strong>$387</strong>.</p>
+            <input type="number" min="0" max="387" name="amount" placeholder="How much to pay?" />
+            <input type="hidden" name="service" value="consulting" />
+            <div></div>
+            <div role="alert"></div>
+            <input type="submit" value="Submit Payment" />
+        </form>
+    </div>
+</section>
+<script src="https://checkout.stripe.com/checkout.js"></script> -->
+
+<form action="/charge" method="POST">
+  <p>Your outstanding balance is <strong>$387</strong>.</p>
+  <input type="number" min="0" max="387" name="amount" placeholder="How much to pay?" />
+  <input type="hidden" name="service" value="consulting" />
+  <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key="pk_test_nVbUVm9yfmUTX0EzwCoJLYGG"
+    data-name="Demo Site"
+    data-description="Example charge"
+    data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+    data-locale="auto">
+  </script>
+  <!-- <input type="submit" value="Submit Payment" /> -->
+</form>
