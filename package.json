@@ -1,0 +1,31 @@
+{
+  "name": "version-2",
+  "version": "0.0.1",
+  "description": "Libraries drill 2",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Kyle Coberly",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "path": "^0.12.7",
+    "stripe": "^6.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinloveless/Stripe-Payment-processing.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/austinloveless/Stripe-Payment-processing/issues"
+  },
+  "homepage": "https://github.com/austinloveless/Stripe-Payment-processing#readme"
+}
